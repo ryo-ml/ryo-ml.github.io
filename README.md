@@ -5,7 +5,7 @@ This is my personal portfolio website.
 ## About
 
 I'm an undergraduate student studying machine learning and AI.  
-I'm particularly interested in machine learning theory and currently learning Bayesian statistics through PRML.
+I'm particularly interested in machine learning theory and currently learning Bayesian statistics.
 
 ## Pages
 
