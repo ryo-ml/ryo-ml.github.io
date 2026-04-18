@@ -45,6 +45,10 @@ a:hover {
     opacity: 0.7;
 }
 
+ul, ol {
+    list-style: none;
+}
+
 h1, h2, h3 {
     font-weight: normal;
     margin-top: 0;
@@ -68,4 +72,15 @@ footer {
 
 .logo a {
     color: black;
+}
+
+.project {
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 1.2rem;
+}
+
+.project:hover {
+    transform: translateY(-2px);
+    background-color: #f2f2f2;
 }
