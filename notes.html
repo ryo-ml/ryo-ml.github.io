@@ -1,37 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="ryo-ml - Undergraduate student studying machine learning and AI.">
-    <title>Notes</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+---
+title: Notes
+permalink: /notes/
+---
+<h2>Notes</h2>
 
-<body>
+{% for note in site.notes %}
+<div class="project">
+    <h3>{{ note.title }}</h3>
 
-<div class="container">
+    <p>
+        {{ note.description }}
+    </p>
 
-    <header class="header">
-        <h1 class="logo">
-            <a href="index.html">ryo-ml</a>
-        </h1>
-
-        <nav>
-            <a href="index.html">About</a>
-            <a href="projects.html">Projects</a>
-            <a href="notes.html">Notes</a>
-        </nav>
-    </header>
-
-    <main>
-        <h2>Notes</h2>
-    </main>
-
-    <footer>
-        <small>&copy;2026 ryo-ml</small>
-    </footer>
-
+    <a href="{{ note.url | relative_url }}">View</a>
 </div>
-
-</body>
-</html>
+{% endfor %}
