@@ -2,16 +2,14 @@
 title: Notes
 permalink: /notes/
 ---
-<h2>Notes</h2>
+<h1>Notes</h1>
 
 {% for note in site.notes %}
-<div class="project">
-    <h3>{{ note.title }}</h3>
+<article class="card">
+    <h2><a href="{{ note.url | relative_url }}">{{ note.title }}</a></h2>
 
     <p>
         {{ note.description }}
     </p>
-
-    <a href="{{ note.url | relative_url }}">View</a>
-</div>
+</article>
 {% endfor %}
