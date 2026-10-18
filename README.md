@@ -17,6 +17,16 @@ I'm particularly interested in machine learning theory and currently learning Ba
 
 - HTML
 - CSS
+- Jekyll (GitHub Pages)
+
+## Local Development
+
+```sh
+bundle install
+bundle exec jekyll serve
+```
+
+Open http://localhost:4000
 
 ## Website
 
