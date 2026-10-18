@@ -1,0 +1,27 @@
+title: ryo-ml
+description: ryo-ml - Undergraduate student studying machine learning and AI.
+url: https://ryo-ml.github.io
+baseurl: ""
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: note
+      math: true
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
