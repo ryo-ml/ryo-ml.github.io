@@ -1,4 +1,4 @@
-# ryo-ml.github.io
+# [ryo-ml.github.io](https://ryo-ml.github.io)
 
 This is my personal portfolio website.
 
@@ -27,10 +27,6 @@ bundle exec jekyll serve
 ```
 
 Open http://localhost:4000
-
-## Website
-
-https://ryo-ml.github.io
 
 ## Future Plans
 
